@@ -62,8 +62,8 @@ module.exports = {
         400: "#a1a1aa",
         500: "#71717a",
         600: "#52525b",
-        700: "#3f3f46",
-        800: "#27272a",
+        700: "#212529",//dark2
+        800: "#212229",//dark1
         900: "#18181b",
       },
 
@@ -103,7 +103,7 @@ module.exports = {
         300: "#fca5a5",
         400: "#f87171",
         500: "#f53939",
-        600: "#f5365c",// gr-danger-1
+        600: "#f5365c",// gr-danger-1 & danger
         // 600: "#ea0606",//
         700: "#b91c1c",
         800: "#991b1b",
@@ -118,7 +118,7 @@ module.exports = {
         300: "#fdba74",
         400: "#fb923c",
         // 500: "#f97316",
-        500: "#fb6340",//gr-warning-1
+        500: "#fb6340",//gr-warning-& 1
         // 600: "#ea580c",
         600: "#f56036",//gr-danger-2
 
@@ -213,10 +213,6 @@ module.exports = {
         800: "#115e59",
         900: "#134e4a",
       },
-      // linear-gradient(310deg,
-      // #1171ef,
-      // ,
-      // #11cdef,
 
       cyan: {
         DEFAULT: colors.cyan,
@@ -235,7 +231,7 @@ module.exports = {
       sky: {
         DEFAULT: colors.sky,
         50: "#f0f9ff",
-        100: "#e0f2fe",
+        100: "#f6f9fc",//nav item bg
         200: "#bae6fd",
         300: "#7dd3fc",
         400: "#38bdf8",
@@ -254,7 +250,7 @@ module.exports = {
         300: "#93c5fd",
         400: "#60a5fa",
         500: "#5e72e4", //primary
-        600: "#5e72e4", //primary 1
+        600: "#2152ff",
         700: "#1171ef", // info 1
         800: "#344e86",
         900: "#00007d",
@@ -282,7 +278,6 @@ module.exports = {
         300: "#c4b5fd",
         400: "#a78bfa",
         500: "#825ee4", //primary 2
-        // 500: "#8b5cf6",
         600: "#7c3aed",
         700: "#6d28d9",
         800: "#5b21b6",
@@ -556,7 +551,7 @@ module.exports = {
       "gradient-to-l": "linear-gradient(to left, var(--tw-gradient-stops))",
       "gradient-to-tl": "linear-gradient(to top left, var(--tw-gradient-stops))",
 
-      "gradient-blue": "linear-gradient(310deg," + theme("colors.blue.600") + "," + theme("colors.violet.500") + ")", //primary
+      "gradient-blue": "linear-gradient(310deg," + theme("colors.blue.500") + "," + theme("colors.violet.500") + ")", //primary
       "gradient-fuchsia": "linear-gradient(310deg," + theme("colors.purple.700") + "," + theme("colors.pink.500") + ")",
       "gradient-cyan": "linear-gradient(310deg," + theme("colors.blue.700") + "," + theme("colors.cyan.500") + ")", //info
       "gradient-orange": "linear-gradient(310deg," + theme("colors.orange.500") + "," + theme("colors.yellow.500") + ")",
@@ -564,7 +559,7 @@ module.exports = {
       "gradient-lime": "linear-gradient(310deg," + theme("colors.green.600") + "," + theme("colors.lime.400") + ")", //
       "gradient-emerald": "linear-gradient(310deg," + theme("colors.emerald.500") + "," + theme("colors.teal.400") + ")", //success
       "gradient-slate": "linear-gradient(310deg," + theme("colors.slate.600") + "," + theme("colors.slate.300") + ")",
-      "gradient-dark-gray": "linear-gradient(310deg," + theme("colors.gray.900") + "," + theme("colors.slate.800") + ")",
+      "gradient-dark-gray": "linear-gradient(310deg," + theme("colors.zinc.800") + "," + theme("colors.zinc.700") + ")",
       "gradient-gray": "linear-gradient(310deg," + theme("colors.gray.400") + "," + theme("colors.gray.100") + ")",
 
       "gradient-horizontal-dark": "linear-gradient(90deg,transparent,rgba(0,0,0,.4),transparent)",
@@ -644,11 +639,11 @@ module.exports = {
     },
     boxShadow: {
       "soft-xxs": "0 1px 5px 1px #ddd",
-      "soft-xs": "0 3px 5px -1px rgba(0,0,0,.09),0 2px 3px -1px rgba(0,0,0,.07)",
+      "soft-xs": "0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08)", // button hover
       "soft-sm": "0 .25rem .375rem -.0625rem hsla(0,0%,8%,.12),0 .125rem .25rem -.0625rem hsla(0,0%,8%,.07)",
       "soft-md": "0 4px 7px -1px rgba(0,0,0,.11),0 2px 4px -1px rgba(0,0,0,.07)",
       "soft-lg": "0 2px 12px 0 rgba(0,0,0,.16)",
-      "soft-xl": "0 20px 27px 0 rgba(0,0,0,0.05)",
+      "soft-xl": "0 0 2rem 0 rgba(136,152,170,.15)", //shadow cards
       "soft-2xl": "0 .3125rem .625rem 0 rgba(0,0,0,.12)",
       "soft-3xl": "0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)",
       "soft-primary-outline": "0 0 0 2px #e9aede",
@@ -994,8 +989,8 @@ module.exports = {
       "4/6": "66.666667%",
       "5/6": "83.333333%",
       full: "100%",
-      sidenav: "calc(100vh - 305px)",
-      // sidenav: "calc(100vh - 360px)", // for pro btn
+      // sidenav: "calc(100vh - 305px)",
+      sidenav: "calc(100vh - 360px)", // for pro btn
       screen: "100vh",
       min: "min-content",
       max: "max-content",
