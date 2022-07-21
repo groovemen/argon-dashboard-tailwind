@@ -35,7 +35,7 @@ if (document.querySelector("[fixed-plugin]")) {
   loadJS(to_build + "assets/js/fixed-plugin.js", true);
 }
 
-if (document.querySelector("[navbar-main]")) {
+if (document.querySelector("[navbar-main]") || document.querySelector("[navbar-profile]")) {
   loadJS(to_build + "assets/js/sidenav-burger.js", true);
   loadJS(to_build + "assets/js/navbar-sticky.js", true);
 }
