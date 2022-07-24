@@ -1874,9 +1874,8 @@ h6 {
   background-color: transparent;
 }
 
-.bg-sky-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(246 249 252 / var(--tw-bg-opacity));
+.bg-blue-500\/13 {
+  background-color: rgb(94 114 228 / 0.13);
 }
 
 .bg-slate-700 {
@@ -1895,10 +1894,6 @@ h6 {
 
 .bg-slate-800\/10 {
   background-color: rgb(58 65 111 / 0.1);
-}
-
-.bg-blue-500\/13 {
-  background-color: rgb(94 114 228 / 0.13);
 }
 
 .bg-gray-500\/30 {
@@ -3573,6 +3568,11 @@ h6 {
 
 .dark .dark\:border-solid {
   border-style: solid;
+}
+
+.dark .dark\:border-slate-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(52 71 103 / var(--tw-border-opacity));
 }
 
 .dark .dark\:border-white\/40 {
