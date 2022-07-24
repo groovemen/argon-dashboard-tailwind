@@ -36,7 +36,9 @@ module.exports = {
         600: "#627594",
         700: "#344767",
         800: "#3a416f",
-        900: "#0f172a",
+        850: "#111c44", // card bg dark
+        900: "#051139", // body dark
+        // 900: "#0f172a",
       },
 
       gray: {
@@ -582,8 +584,12 @@ module.exports = {
       "gradient-dark-gray": "linear-gradient(310deg," + theme("colors.zinc.800") + "," + theme("colors.zinc.700") + ")",
       "gradient-gray": "linear-gradient(310deg," + theme("colors.gray.400") + "," + theme("colors.gray.100") + ")",
 
+      "gradient-neutral": "linear-gradient(195deg,#323a54,#1a2035)",
+
       "gradient-horizontal-dark": "linear-gradient(90deg,transparent,rgba(0,0,0,.4),transparent)",
-      "gradient-horizontal-light": "linear-gradient(90deg,transparent,rgba(0,0,0,.1),transparent)",
+      "gradient-horizontal-gray-light": "linear-gradient(90deg,transparent,rgba(0,0,0,.1),transparent)",
+      "gradient-horizontal-light": "linear-gradient(90deg,hsla(0,0%,100%,0),#fff,hsla(0,0%,100%,0))",
+
     }),
     backgroundOpacity: ({ theme }) => theme("opacity"),
     backgroundPosition: {
@@ -665,10 +671,12 @@ module.exports = {
       "soft-md": "0 4px 6px rgba(50,50,93,.1),0 1px 3px rgba(0,0,0,.08)",
       "soft-lg": "0 2px 12px 0 rgba(0,0,0,.16)",
       "soft-xl": "0 0 2rem 0 rgba(136,152,170,.15)", //shadow cards
+      "soft-dark-xl": "0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12)", //shadow cards dark
       "soft-2xl": "0 .3125rem .625rem 0 rgba(0,0,0,.12)",
       "soft-3xl": "0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)",
       "soft-primary-outline": "0 3px 9px rgba(50,50,9,0),3px 4px 8px rgba(94,114,228,.1)",
       blur: "inset 0 0 1px 1px hsla(0,0%,100%,.9),0 20px 27px 0 rgba(0,0,0,.05)",
+      "dark-blur": "inset 0 0 1px 1px hsla(0,0%,100%,.4),0 20px 27px 0 rgba(0,0,0,.05)",
       DEFAULT: "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
       inner: "inset 0 2px 4px 0 rgb(0 0 0 / 0.05)",
       sm: "0 1px 2px 0 rgb(0 0 0 / 0.05)",
@@ -1168,6 +1176,7 @@ module.exports = {
       5: "0.05",
       10: "0.1",
       12.5: "0.125",
+      13: "0.13",
       20: "0.2",
       25: "0.25",
       30: "0.3",

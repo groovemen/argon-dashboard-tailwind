@@ -15,19 +15,19 @@ var sidenav_icons = sidenav.querySelectorAll("li a div");
 
 var sidenav_target = "../pages/" + pageName + ".html";
 
-var transparentBtn = document.querySelector("[transparent-style-btn]");
-var whiteBtn = document.querySelector("[white-style-btn]");
+var whiteBtn = document.querySelector("[transparent-style-btn]");
+var darkBtn = document.querySelector("[white-style-btn]");
 
-var non_active_style = ["bg-none", "bg-transparent", "text-fuchsia-500", "border-fuchsia-500"];
-var active_style = ["bg-gradient-fuchsia", "bg-fuchsia-500", "text-white", "border-transparent"];
+var non_active_style = ["bg-none", "bg-transparent", "text-blue-500", "border-blue-500"];
+var active_style = ["bg-gradient-blue", "bg-blue-500", "text-white", "border-transparent"];
 
-var transparent_sidenav_classes = ["xl:bg-transparent", "shadow-none"];
-var transparent_sidenav_highlighted = ["shadow-soft-xl"];
-var transparent_sidenav_icons = ["bg-white"];
+var white_sidenav_classes = ["bg-white", "shadow-soft-xl"];
+// var white_sidenav_highlighted = ["shadow-soft-xl"];
+// var white_sidenav_icons = ["bg-white"];
 
-var white_sidenav_classes = ["xl:bg-white", "shadow-soft-xl"];
-var white_sidenav_highlighted = ["shadow-none"];
-var white_sidenav_icons = ["bg-gray-200"];
+var black_sidenav_classes = ["bg-slate-850", "shadow-none"];
+// var black_sidenav_highlighted = ["shadow-none"];
+// var black_sidenav_icons = ["bg-gray-200"];
 
 var sidenav_highlight = document.querySelector("a[href=" + CSS.escape(sidenav_target) + "]");
 
@@ -86,17 +86,12 @@ function sidebarColor(a) {
   var color = a.getAttribute("data-color");
   var parent = a.parentElement.children;
   var activeColor;
+
   var activeSidenavIconColorClass;
-  var activeSidenavCardColorClass;
-  var activeSidenavCardIconColorClass;
 
-  var checkedSidenavIconColor = "bg-gradient-" + color;
-  var checkedSidenavCardColor = "after:bg-gradient-" + (color == "fuchsia" ? "slate" : color);
-  var checkedSidenavCardIconColorClass = "bg-gradient-" + (color == "fuchsia" ? "slate" : color);
+  var checkedSidenavIconColor = "bg-" + color + "-500/30";
 
-  var sidenavCard = document.querySelector("[sidenav-card]");
-  var sidenavCardIcon = document.querySelector("[sidenav-card-icon]");
-  var sidenavIcon = document.querySelector("a[href=" + CSS.escape(sidenav_target) + "]").firstElementChild;
+  var sidenavIcon = document.querySelector("a[href=" + CSS.escape(sidenav_target) + "]");
 
   for (var i = 0; i < parent.length; i++) {
     if (parent[i].hasAttribute("active-color")) {
@@ -105,9 +100,7 @@ function sidebarColor(a) {
       parent[i].classList.toggle("border-white");
       parent[i].classList.toggle("border-slate-700");
 
-      activeSidenavIconColorClass = "bg-gradient-" + activeColor;
-      activeSidenavCardColorClass = "after:bg-gradient-" + (activeColor == "fuchsia" ? "slate" : activeColor);
-      activeSidenavCardIconColorClass = "bg-gradient-" + (activeColor == "fuchsia" ? "slate" : activeColor);
+      activeSidenavIconColorClass = "bg-" + activeColor + "-500/30";
     }
     parent[i].removeAttribute("active-color");
   }
@@ -120,20 +113,16 @@ function sidebarColor(a) {
 
   //   remove active style
 
-  sidenavCard.classList.remove(activeSidenavCardColorClass);
-  sidenavCardIcon.classList.remove(activeSidenavCardIconColorClass);
   sidenavIcon.classList.remove(activeSidenavIconColorClass);
 
   //   add new style
 
-  sidenavCard.classList.add(checkedSidenavCardColor);
-  sidenavCardIcon.classList.add(checkedSidenavCardIconColorClass);
   sidenavIcon.classList.add(checkedSidenavIconColor);
 }
 
 // sidenav style
 
-transparentBtn.addEventListener("click", function () {
+whiteBtn.addEventListener("click", function () {
   const active_style_attr = document.createAttribute("active-style");
   if (!this.hasAttribute(active_style_attr)) {
     // change trigger buttons style
@@ -148,43 +137,44 @@ transparentBtn.addEventListener("click", function () {
       this.classList.add(style_class);
     });
 
-    whiteBtn.removeAttribute(active_style_attr);
+    darkBtn.removeAttribute(active_style_attr);
 
     active_style.forEach((style_class) => {
-      whiteBtn.classList.remove(style_class);
+      darkBtn.classList.remove(style_class);
     });
 
     non_active_style.forEach((style_class) => {
-      whiteBtn.classList.add(style_class);
+      darkBtn.classList.add(style_class);
     });
 
     // change actual styles
 
-    white_sidenav_classes.forEach((style_class) => {
+    black_sidenav_classes.forEach((style_class) => {
       sidenav.classList.remove(style_class);
     });
-    transparent_sidenav_classes.forEach((style_class) => {
+    white_sidenav_classes.forEach((style_class) => {
       sidenav.classList.add(style_class);
     });
 
-    white_sidenav_highlighted.forEach((style_class) => {
-      sidenav_highlight.classList.remove(style_class);
-    });
-    transparent_sidenav_highlighted.forEach((style_class) => {
-      sidenav_highlight.classList.add(style_class);
-    });
-    for (var i = 0; i < sidenav_icons.length; i++) {
-      white_sidenav_icons.forEach((style_class) => {
-        sidenav_icons[i].classList.remove(style_class);
-      });
-      transparent_sidenav_icons.forEach((style_class) => {
-        sidenav_icons[i].classList.add(style_class);
-      });
-    }
+    // black_sidenav_highlighted.forEach((style_class) => {
+    //   sidenav_highlight.classList.remove(style_class);
+    // });
+    // white_sidenav_highlighted.forEach((style_class) => {
+    //   sidenav_highlight.classList.add(style_class);
+    // });
+    // for (var i = 0; i < sidenav_icons.length; i++) {
+    //   black_sidenav_icons.forEach((style_class) => {
+    //     sidenav_icons[i].classList.remove(style_class);
+    //   });
+    //   white_sidenav_icons.forEach((style_class) => {
+    //     sidenav_icons[i].classList.add(style_class);
+    //   });
+    // }
+    sidenav.classList.remove("dark");
   }
 });
 
-whiteBtn.addEventListener("click", function () {
+darkBtn.addEventListener("click", function () {
   const active_style_attr = document.createAttribute("active-style");
   if (!this.hasAttribute(active_style_attr)) {
     this.setAttributeNode(active_style_attr);
@@ -195,39 +185,40 @@ whiteBtn.addEventListener("click", function () {
       this.classList.add(style_class);
     });
 
-    transparentBtn.removeAttribute(active_style_attr);
+    whiteBtn.removeAttribute(active_style_attr);
     active_style.forEach((style_class) => {
-      transparentBtn.classList.remove(style_class);
+      whiteBtn.classList.remove(style_class);
     });
     non_active_style.forEach((style_class) => {
-      transparentBtn.classList.add(style_class);
+      whiteBtn.classList.add(style_class);
     });
 
     // change actual styles
 
-    transparent_sidenav_classes.forEach((style_class) => {
+    white_sidenav_classes.forEach((style_class) => {
       sidenav.classList.remove(style_class);
     });
-    white_sidenav_classes.forEach((style_class) => {
+    black_sidenav_classes.forEach((style_class) => {
       sidenav.classList.add(style_class);
     });
 
-    transparent_sidenav_highlighted.forEach((style_class) => {
-      sidenav_highlight.classList.remove(style_class);
-    });
+    // white_sidenav_highlighted.forEach((style_class) => {
+    //   sidenav_highlight.classList.remove(style_class);
+    // });
 
-    white_sidenav_highlighted.forEach((style_class) => {
-      sidenav_highlight.classList.add(style_class);
-    });
+    // black_sidenav_highlighted.forEach((style_class) => {
+    //   sidenav_highlight.classList.add(style_class);
+    // });
 
-    for (var i = 0; i < sidenav_icons.length; i++) {
-      transparent_sidenav_icons.forEach((style_class) => {
-        sidenav_icons[i].classList.remove(style_class);
-      });
-      white_sidenav_icons.forEach((style_class) => {
-        sidenav_icons[i].classList.add(style_class);
-      });
-    }
+    // for (var i = 0; i < sidenav_icons.length; i++) {
+    //   white_sidenav_icons.forEach((style_class) => {
+    //     sidenav_icons[i].classList.remove(style_class);
+    //   });
+    //   black_sidenav_icons.forEach((style_class) => {
+    //     sidenav_icons[i].classList.add(style_class);
+    //   });
+    // }
+    sidenav.classList.add("dark");
   }
 });
 
@@ -242,8 +233,10 @@ if (navbar) {
       navbar.setAttribute("navbar-scroll", "true");
       navbar.classList.add("sticky");
       navbar.classList.add("top-[1%]");
-      navbar.classList.add("backdrop-saturate-[200%]");
-      navbar.classList.add("backdrop-blur-[30px]");
+      navbar.classList.add("backdrop-saturate-200");
+      navbar.classList.add("backdrop-blur-2xl");
+      navbar.classList.add("dark:bg-slate-850/80");
+      navbar.classList.add("dark:shadow-dark-blur");
       navbar.classList.add("bg-[hsla(0,0%,100%,0.8)]");
       navbar.classList.add("shadow-blur");
       navbar.classList.add("z-110");
@@ -251,8 +244,10 @@ if (navbar) {
       navbar.setAttribute("navbar-scroll", "false");
       navbar.classList.remove("sticky");
       navbar.classList.remove("top-[1%]");
-      navbar.classList.remove("backdrop-saturate-[200%]");
-      navbar.classList.remove("backdrop-blur-[30px]");
+      navbar.classList.remove("backdrop-saturate-200");
+      navbar.classList.remove("backdrop-blur-2xl");
+      navbar.classList.remove("dark:bg-slate-850/80");
+      navbar.classList.remove("dark:shadow-dark-blur");
       navbar.classList.remove("bg-[hsla(0,0%,100%,0.8)]");
       navbar.classList.remove("shadow-blur");
       navbar.classList.remove("z-110");

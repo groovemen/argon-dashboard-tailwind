@@ -12,19 +12,23 @@ window.onscroll = function () {
 
 function stickyNav() {
   if (window.scrollY >= 5) {
-    navbar.classList.add("sticky", "top-[1%]", "backdrop-saturate-[200%]", "backdrop-blur-[30px]", "bg-[hsla(0,0%,100%,0.8)]", "shadow-blur", "z-110");
+    navbar.classList.add("sticky", "top-[1%]", "backdrop-saturate-200", "dark:bg-slate-850/80", "dark:shadow-dark-blur", "backdrop-blur-2xl", "bg-[hsla(0,0%,100%,0.8)]", "shadow-blur", "z-110");
     white_elements.forEach(element => {
       element.classList.remove("text-white")
+      element.classList.add("dark:text-white")
     });
     white_before_elements.forEach(element => {
+      element.classList.add("dark:before:text-white")
       element.classList.remove("before:text-white")
     });
   } else {
-    navbar.classList.remove("sticky", "top-[1%]", "backdrop-saturate-[200%]", "backdrop-blur-[30px]", "bg-[hsla(0,0%,100%,0.8)]", "shadow-blur", "z-110");
+    navbar.classList.remove("sticky", "top-[1%]", "backdrop-saturate-200", "dark:bg-slate-850/80", "dark:shadow-dark-blur", "backdrop-blur-2xl", "bg-[hsla(0,0%,100%,0.8)]", "shadow-blur", "z-110");
     white_elements.forEach(element => {
       element.classList.add("text-white")
+      element.classList.remove("dark:text-white")
     });
     white_before_elements.forEach(element => {
+      element.classList.remove("dark:before:text-white")
       element.classList.add("before:text-white")
     });
   }
