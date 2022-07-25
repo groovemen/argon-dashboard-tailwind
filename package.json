@@ -1,9 +1,9 @@
 {
-    "name": "soft-ui-tailwind",
+    "name": "argon-dashboard-tailwind",
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "build": "tailwindcss build -i src/styles.css -o build/assets/css/styles.css"
+        "build": "tailwindcss build -i src/styles.css -o build/assets/css/argon-tailwind.css?v=1.0.0"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.2",
