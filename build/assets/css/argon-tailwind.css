@@ -1,5 +1,22 @@
-/*
-! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com
+/*!
+
+=========================================================
+* Argon Dashboard 2 Tailwind - v1.0.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-dashboard-tailwind
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+
+* Coded by www.creative-tim.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+/*! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com
+
 */
 
 /*
@@ -2538,11 +2555,6 @@ h6 {
   color: rgb(103 116 142 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(73 80 87 / var(--tw-text-opacity));
@@ -2551,6 +2563,11 @@ h6 {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(94 114 228 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-slate-400 {
