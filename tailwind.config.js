@@ -36,9 +36,8 @@ module.exports = {
         600: "#627594",
         700: "#344767",
         800: "#3a416f",
-        850: "#111c44", // card bg dark
-        900: "#051139", // body dark
-        // 900: "#0f172a",
+        850: "#111c44",
+        900: "#051139",
       },
 
       gray: {
@@ -64,8 +63,8 @@ module.exports = {
         400: "#a1a1aa",
         500: "#71717a",
         600: "#52525b",
-        700: "#212529",//dark2
-        800: "#212229",//dark1
+        700: "#212529",
+        800: "#212229",
         900: "#18181b",
       },
 
@@ -105,8 +104,7 @@ module.exports = {
         300: "#fca5a5",
         400: "#f87171",
         500: "#f53939",
-        600: "#f5365c",// gr-danger-1 & danger
-        // 600: "#ea0606",//
+        600: "#f5365c",
         700: "#b91c1c",
         800: "#991b1b",
         900: "#7f1d1d",
@@ -119,11 +117,8 @@ module.exports = {
         200: "#fed7aa",
         300: "#fdba74",
         400: "#fb923c",
-        // 500: "#f97316",
-        500: "#fb6340",//gr-warning-& 1
-        // 600: "#ea580c",
-        600: "#f56036",//gr-danger-2
-
+        500: "#fb6340",
+        600: "#f56036",
         700: "#c2410c",
         800: "#9a3412",
         900: "#7c2d12",
@@ -150,8 +145,7 @@ module.exports = {
         200: "#fef08a",
         300: "#fde047",
         400: "#fbcf33",
-        // 500: "#eab308",
-        500: "#fbb140",//gr-orange-2
+        500: "#fbb140",
         600: "#ca8a04",
         700: "#a16207",
         800: "#854d0e",
@@ -193,8 +187,7 @@ module.exports = {
         200: "#a7f3d0",
         300: "#6ee7b7",
         400: "#34d399",
-        500: "#2dce89", //success + success 1
-        // 500: "#10b981",
+        500: "#2dce89",
         600: "#059669",
         700: "#047857",
         800: "#065f46",
@@ -207,8 +200,7 @@ module.exports = {
         100: "#ccfbf1",
         200: "#99f6e4",
         300: "#5eead4",
-        400: "#2dcecc", //success 2
-        // 400: "#2dd4bf",
+        400: "#2dcecc",
         500: "#14b8a6",
         600: "#0d9488",
         700: "#0f766e",
@@ -223,7 +215,7 @@ module.exports = {
         200: "#a5f3fc",
         300: "#67e8f9",
         400: "#21d4fd",
-        500: "#11cdef", // info
+        500: "#11cdef",
         600: "#0891b2",
         700: "#0e7490",
         800: "#155e75",
@@ -233,7 +225,7 @@ module.exports = {
       sky: {
         DEFAULT: colors.sky,
         50: "#f0f9ff",
-        100: "#f6f9fc",//nav item bg
+        100: "#f6f9fc",
         200: "#bae6fd",
         300: "#7dd3fc",
         400: "#38bdf8",
@@ -251,9 +243,9 @@ module.exports = {
         200: "#bfdbfe",
         300: "#93c5fd",
         400: "#60a5fa",
-        500: "#5e72e4", //primary
+        500: "#5e72e4",
         600: "#2152ff",
-        700: "#1171ef", // info 1
+        700: "#1171ef",
         800: "#344e86",
         900: "#00007d",
       },
@@ -279,7 +271,7 @@ module.exports = {
         200: "#ddd6fe",
         300: "#c4b5fd",
         400: "#a78bfa",
-        500: "#825ee4", //primary 2
+        500: "#825ee4",
         600: "#7c3aed",
         700: "#6d28d9",
         800: "#5b21b6",
@@ -307,7 +299,7 @@ module.exports = {
         200: "#f5d0fe",
         300: "#e293d3",
         400: "#e879f9",
-        500: "#cb0c9f", //primary
+        500: "#cb0c9f",
         600: "#c026d3",
         700: "#a21caf",
         800: "#830866",
@@ -574,7 +566,6 @@ module.exports = {
       "gradient-to-tl": "linear-gradient(to top left, var(--tw-gradient-stops))",
 
       "gradient-blue": "linear-gradient(310deg," + theme("colors.blue.500") + "," + theme("colors.violet.500") + ")", //primary
-      "gradient-fuchsia": "linear-gradient(310deg," + theme("colors.purple.700") + "," + theme("colors.pink.500") + ")",
       "gradient-cyan": "linear-gradient(310deg," + theme("colors.blue.700") + "," + theme("colors.cyan.500") + ")", //info
       "gradient-orange": "linear-gradient(310deg," + theme("colors.orange.500") + "," + theme("colors.yellow.500") + ")",
       "gradient-red": "linear-gradient(310deg," + theme("colors.red.600") + "," + theme("colors.orange.600") + ")",
