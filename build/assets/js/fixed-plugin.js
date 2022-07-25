@@ -155,21 +155,6 @@ whiteBtn.addEventListener("click", function () {
     white_sidenav_classes.forEach((style_class) => {
       sidenav.classList.add(style_class);
     });
-
-    // black_sidenav_highlighted.forEach((style_class) => {
-    //   sidenav_highlight.classList.remove(style_class);
-    // });
-    // white_sidenav_highlighted.forEach((style_class) => {
-    //   sidenav_highlight.classList.add(style_class);
-    // });
-    // for (var i = 0; i < sidenav_icons.length; i++) {
-    //   black_sidenav_icons.forEach((style_class) => {
-    //     sidenav_icons[i].classList.remove(style_class);
-    //   });
-    //   white_sidenav_icons.forEach((style_class) => {
-    //     sidenav_icons[i].classList.add(style_class);
-    //   });
-    // }
     sidenav.classList.remove("dark");
   }
 });
@@ -201,23 +186,6 @@ darkBtn.addEventListener("click", function () {
     black_sidenav_classes.forEach((style_class) => {
       sidenav.classList.add(style_class);
     });
-
-    // white_sidenav_highlighted.forEach((style_class) => {
-    //   sidenav_highlight.classList.remove(style_class);
-    // });
-
-    // black_sidenav_highlighted.forEach((style_class) => {
-    //   sidenav_highlight.classList.add(style_class);
-    // });
-
-    // for (var i = 0; i < sidenav_icons.length; i++) {
-    //   white_sidenav_icons.forEach((style_class) => {
-    //     sidenav_icons[i].classList.remove(style_class);
-    //   });
-    //   black_sidenav_icons.forEach((style_class) => {
-    //     sidenav_icons[i].classList.add(style_class);
-    //   });
-    // }
     sidenav.classList.add("dark");
   }
 });
@@ -229,7 +197,24 @@ if (navbar) {
     buttonNavbarFixed.setAttribute("checked", "true");
   }
   buttonNavbarFixed.addEventListener("change", function () {
+    const white_elements = navbar.querySelectorAll(".text-white");
+    const white_bg_elements = navbar.querySelectorAll("[sidenav-trigger] i.bg-white");
+    const white_before_elements = navbar.querySelectorAll(".before\\:text-white");
+
     if (this.checked) {
+      white_elements.forEach(element => {
+        element.classList.remove("text-white")
+        element.classList.add("dark:text-white")
+      });
+      white_bg_elements.forEach(element => {
+        element.classList.remove("bg-white")
+        element.classList.add("dark:bg-white")
+        element.classList.add("bg-slate-500")
+      });
+      white_before_elements.forEach(element => {
+        element.classList.add("dark:before:text-white")
+        element.classList.remove("before:text-white")
+      });
       navbar.setAttribute("navbar-scroll", "true");
       navbar.classList.add("sticky");
       navbar.classList.add("top-[1%]");
@@ -251,6 +236,19 @@ if (navbar) {
       navbar.classList.remove("bg-[hsla(0,0%,100%,0.8)]");
       navbar.classList.remove("shadow-blur");
       navbar.classList.remove("z-110");
+      white_elements.forEach(element => {
+        element.classList.add("text-white")
+        element.classList.remove("dark:text-white")
+      });
+      white_bg_elements.forEach(element => {
+        element.classList.add("bg-white")
+        element.classList.remove("dark:bg-white")
+        element.classList.remove("bg-slate-500")
+      });
+      white_before_elements.forEach(element => {
+        element.classList.remove("dark:before:text-white")
+        element.classList.add("before:text-white")
+      });
     }
   });
 } else {
