@@ -19,7 +19,7 @@ sidenav_trigger.addEventListener("click", function () {
   }
   sidenav.classList.toggle("translate-x-0");
   sidenav.classList.toggle("ml-6");
-  sidenav.classList.toggle("shadow-soft-xl");
+  sidenav.classList.toggle("shadow-xl");
   if (page == "rtl") {
     top_bread.classList.toggle("-translate-x-[5px]");
     bottom_bread.classList.toggle("-translate-x-[5px]");
