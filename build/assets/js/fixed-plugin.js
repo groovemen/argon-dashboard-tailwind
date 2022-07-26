@@ -21,8 +21,8 @@ var darkBtn = document.querySelector("[white-style-btn]");
 var non_active_style = ["bg-none", "bg-transparent", "text-blue-500", "border-blue-500"];
 var active_style = ["bg-gradient-blue", "bg-blue-500", "text-white", "border-transparent"];
 
-var white_sidenav_classes = ["bg-white", "shadow-soft-xl"];
-// var white_sidenav_highlighted = ["shadow-soft-xl"];
+var white_sidenav_classes = ["bg-white", "shadow-xl"];
+// var white_sidenav_highlighted = ["shadow-xl"];
 // var white_sidenav_icons = ["bg-white"];
 
 var black_sidenav_classes = ["bg-slate-850", "shadow-none"];
