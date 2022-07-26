@@ -7,7 +7,7 @@ total.forEach(function (item, i) {
   var first_li = item.querySelector("li:first-child [nav-link]");
   var tab = first_li.cloneNode();
   tab.innerHTML = "-";
-  tab.classList.remove("bg-inherit");
+  tab.classList.remove("bg-inherit", "text-slate-700");
   tab.classList.add("bg-white", "text-white");
   tab.style.animation = ".2s ease";
 

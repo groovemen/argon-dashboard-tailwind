@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Argon Dashboard 2 Tailwind - v1.0.0
+* Argon Dashboard Tailwind - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-dashboard-tailwind
@@ -1193,7 +1193,7 @@ h6 {
 }
 
 .h-sidenav {
-  height: calc(100vh - 360px);
+  height: calc(100vh - 305px);
 }
 
 .h-8 {
@@ -3864,6 +3864,10 @@ h6 {
 @media (max-width: 768px) {
   .md-max\:w-full {
     width: 100%;
+  }
+
+  .md-max\:overflow-auto {
+    overflow: auto;
   }
 }
 
