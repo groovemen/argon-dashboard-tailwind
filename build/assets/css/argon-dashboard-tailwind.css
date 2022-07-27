@@ -1999,8 +1999,8 @@ h6 {
   background-image: linear-gradient(310deg,#627594,#a8b8d8);
 }
 
-.bg-gradient-blue {
-  background-image: linear-gradient(310deg,#5e72e4,#825ee4);
+.bg-gradient-to-tl {
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
 .bg-gradient-red {
@@ -2041,6 +2041,20 @@ h6 {
 
 .bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/creativetimofficial\/public-assets\/master\/argon-dashboard-pro\/assets\/img\/signup-cover\.jpg\'\)\] {
   background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/signup-cover.jpg');
+}
+
+.bg-gradient-blue {
+  background-image: linear-gradient(310deg,#5e72e4,#825ee4);
+}
+
+.from-blue-500 {
+  --tw-gradient-from: #5e72e4;
+  --tw-gradient-to: rgb(94 114 228 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-violet-500 {
+  --tw-gradient-to: #825ee4;
 }
 
 .bg-150 {
@@ -3179,9 +3193,21 @@ h6 {
   background-image: linear-gradient(310deg,#627594,#a8b8d8);
 }
 
-.after\:bg-gradient-blue::after {
+.after\:bg-gradient-to-tl::after {
   content: var(--tw-content);
-  background-image: linear-gradient(310deg,#5e72e4,#825ee4);
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.after\:from-blue-500::after {
+  content: var(--tw-content);
+  --tw-gradient-from: #5e72e4;
+  --tw-gradient-to: rgb(94 114 228 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.after\:to-violet-500::after {
+  content: var(--tw-content);
+  --tw-gradient-to: #825ee4;
 }
 
 .after\:font-awesome::after {
@@ -3276,8 +3302,18 @@ h6 {
   background-image: none;
 }
 
-.checked\:bg-gradient-blue:checked {
-  background-image: linear-gradient(310deg,#5e72e4,#825ee4);
+.checked\:bg-gradient-to-tl:checked {
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.checked\:from-blue-500:checked {
+  --tw-gradient-from: #5e72e4;
+  --tw-gradient-to: rgb(94 114 228 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.checked\:to-violet-500:checked {
+  --tw-gradient-to: #825ee4;
 }
 
 .checked\:bg-right:checked {
@@ -3632,8 +3668,18 @@ h6 {
   background-image: linear-gradient(195deg,#323a54,#1a2035);
 }
 
-.dark .dark\:bg-gradient-blue {
-  background-image: linear-gradient(310deg,#5e72e4,#825ee4);
+.dark .dark\:bg-gradient-to-tl {
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.dark .dark\:from-blue-500 {
+  --tw-gradient-from: #5e72e4;
+  --tw-gradient-to: rgb(94 114 228 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.dark .dark\:to-violet-500 {
+  --tw-gradient-to: #825ee4;
 }
 
 .dark .dark\:text-white {
@@ -4225,8 +4271,18 @@ h6 {
     border-width: 0px;
   }
 
-  .xl-max\:bg-gradient-blue {
-    background-image: linear-gradient(310deg,#5e72e4,#825ee4);
+  .xl-max\:bg-gradient-to-tl {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .xl-max\:from-blue-500 {
+    --tw-gradient-from: #5e72e4;
+    --tw-gradient-to: rgb(94 114 228 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+
+  .xl-max\:to-violet-500 {
+    --tw-gradient-to: #825ee4;
   }
 
   .xl-max\:text-white {
