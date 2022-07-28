@@ -35,6 +35,7 @@ module.exports = {
         500: "#67748e",
         600: "#627594",
         700: "#344767",
+        750: "#323a54",
         800: "#3a416f",
         850: "#111c44",
         900: "#051139",
@@ -51,6 +52,7 @@ module.exports = {
         600: "#6c757d",
         700: "#495057",
         800: "#252f40",
+        850: "#1a2035",
         900: "#141727",
       },
 
@@ -575,7 +577,7 @@ module.exports = {
       "gradient-dark-gray": "linear-gradient(310deg," + theme("colors.zinc.800") + "," + theme("colors.zinc.700") + ")",
       "gradient-gray": "linear-gradient(310deg," + theme("colors.gray.400") + "," + theme("colors.gray.100") + ")",
 
-      "gradient-neutral": "linear-gradient(195deg,#323a54,#1a2035)",
+      "gradient-neutral": "linear-gradient(195deg,#323a54,#1a2035)",//
 
       "gradient-horizontal-dark": "linear-gradient(90deg,transparent,rgba(0,0,0,.4),transparent)",
       "gradient-horizontal-gray-light": "linear-gradient(90deg,transparent,rgba(0,0,0,.1),transparent)",
