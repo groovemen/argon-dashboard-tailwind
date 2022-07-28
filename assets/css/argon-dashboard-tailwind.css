@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Argon Dashboard Tailwind - v1.0.0
+* Argon Dashboard 2 Tailwind - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-dashboard-tailwind
@@ -1987,44 +1987,16 @@ h6 {
   background-color: hsla(0,0%,100%,0.8);
 }
 
-.bg-gradient-horizontal-dark {
-  background-image: linear-gradient(90deg,transparent,rgba(0,0,0,.4),transparent);
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-gradient-dark-gray {
-  background-image: linear-gradient(310deg,#212229,#212529);
-}
-
-.bg-gradient-slate {
-  background-image: linear-gradient(310deg,#627594,#a8b8d8);
-}
-
-.bg-gradient-blue {
-  background-image: linear-gradient(310deg,#5e72e4,#825ee4);
-}
-
-.bg-gradient-red {
-  background-image: linear-gradient(310deg,#f5365c,#f56036);
-}
-
-.bg-gradient-emerald {
-  background-image: linear-gradient(310deg,#2dce89,#2dcecc);
-}
-
-.bg-gradient-orange {
-  background-image: linear-gradient(310deg,#fb6340,#fbb140);
-}
-
-.bg-gradient-cyan {
-  background-image: linear-gradient(310deg,#1171ef,#11cdef);
+.bg-gradient-to-tl {
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
 .bg-none {
   background-image: none;
-}
-
-.bg-gradient-lime {
-  background-image: linear-gradient(310deg,#17ad37,#98ec2d);
 }
 
 .bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/creativetimofficial\/public-assets\/master\/argon-dashboard-pro\/assets\/img\/profile-layout-header\.jpg\'\)\] {
@@ -2035,12 +2007,121 @@ h6 {
   background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/signin-ill.jpg');
 }
 
-.bg-gradient-gray {
-  background-image: linear-gradient(310deg,#ced4da,#ebeff4);
-}
-
 .bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/creativetimofficial\/public-assets\/master\/argon-dashboard-pro\/assets\/img\/signup-cover\.jpg\'\)\] {
   background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/signup-cover.jpg');
+}
+
+.bg-gradient-slate {
+  background-image: linear-gradient(310deg,#627594,#a8b8d8);
+}
+
+.bg-gradient-blue {
+  background-image: linear-gradient(310deg,#5e72e4,#825ee4);
+}
+
+.from-transparent {
+  --tw-gradient-from: transparent;
+  --tw-gradient-to: rgb(0 0 0 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-zinc-800 {
+  --tw-gradient-from: #212229;
+  --tw-gradient-to: rgb(33 34 41 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-slate-600 {
+  --tw-gradient-from: #627594;
+  --tw-gradient-to: rgb(98 117 148 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-blue-500 {
+  --tw-gradient-from: #5e72e4;
+  --tw-gradient-to: rgb(94 114 228 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-red-600 {
+  --tw-gradient-from: #f5365c;
+  --tw-gradient-to: rgb(245 54 92 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-emerald-500 {
+  --tw-gradient-from: #2dce89;
+  --tw-gradient-to: rgb(45 206 137 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-orange-500 {
+  --tw-gradient-from: #fb6340;
+  --tw-gradient-to: rgb(251 99 64 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-blue-700 {
+  --tw-gradient-from: #1171ef;
+  --tw-gradient-to: rgb(17 113 239 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-green-600 {
+  --tw-gradient-from: #17ad37;
+  --tw-gradient-to: rgb(23 173 55 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-gray-400 {
+  --tw-gradient-from: #ced4da;
+  --tw-gradient-to: rgb(206 212 218 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.via-black\/40 {
+  --tw-gradient-to: rgb(0 0 0 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(0 0 0 / 0.4), var(--tw-gradient-to);
+}
+
+.to-transparent {
+  --tw-gradient-to: transparent;
+}
+
+.to-zinc-700 {
+  --tw-gradient-to: #212529;
+}
+
+.to-slate-300 {
+  --tw-gradient-to: #a8b8d8;
+}
+
+.to-violet-500 {
+  --tw-gradient-to: #825ee4;
+}
+
+.to-orange-600 {
+  --tw-gradient-to: #f56036;
+}
+
+.to-teal-400 {
+  --tw-gradient-to: #2dcecc;
+}
+
+.to-yellow-500 {
+  --tw-gradient-to: #fbb140;
+}
+
+.to-cyan-500 {
+  --tw-gradient-to: #11cdef;
+}
+
+.to-lime-400 {
+  --tw-gradient-to: #98ec2d;
+}
+
+.to-gray-100 {
+  --tw-gradient-to: #ebeff4;
 }
 
 .bg-150 {
@@ -3149,39 +3230,93 @@ h6 {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.after\:bg-gradient-dark-gray::after {
+.after\:bg-gradient-to-tl::after {
   content: var(--tw-content);
-  background-image: linear-gradient(310deg,#212229,#212529);
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
-.after\:bg-gradient-cyan::after {
+.after\:from-zinc-800::after {
   content: var(--tw-content);
-  background-image: linear-gradient(310deg,#1171ef,#11cdef);
+  --tw-gradient-from: #212229;
+  --tw-gradient-to: rgb(33 34 41 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.after\:bg-gradient-orange::after {
+.after\:from-blue-700::after {
   content: var(--tw-content);
-  background-image: linear-gradient(310deg,#fb6340,#fbb140);
+  --tw-gradient-from: #1171ef;
+  --tw-gradient-to: rgb(17 113 239 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.after\:bg-gradient-lime::after {
+.after\:from-orange-500::after {
   content: var(--tw-content);
-  background-image: linear-gradient(310deg,#17ad37,#98ec2d);
+  --tw-gradient-from: #fb6340;
+  --tw-gradient-to: rgb(251 99 64 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.after\:bg-gradient-red::after {
+.after\:from-green-600::after {
   content: var(--tw-content);
-  background-image: linear-gradient(310deg,#f5365c,#f56036);
+  --tw-gradient-from: #17ad37;
+  --tw-gradient-to: rgb(23 173 55 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.after\:bg-gradient-slate::after {
+.after\:from-red-600::after {
   content: var(--tw-content);
-  background-image: linear-gradient(310deg,#627594,#a8b8d8);
+  --tw-gradient-from: #f5365c;
+  --tw-gradient-to: rgb(245 54 92 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.after\:bg-gradient-blue::after {
+.after\:from-slate-600::after {
   content: var(--tw-content);
-  background-image: linear-gradient(310deg,#5e72e4,#825ee4);
+  --tw-gradient-from: #627594;
+  --tw-gradient-to: rgb(98 117 148 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.after\:from-blue-500::after {
+  content: var(--tw-content);
+  --tw-gradient-from: #5e72e4;
+  --tw-gradient-to: rgb(94 114 228 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.after\:to-zinc-700::after {
+  content: var(--tw-content);
+  --tw-gradient-to: #212529;
+}
+
+.after\:to-cyan-500::after {
+  content: var(--tw-content);
+  --tw-gradient-to: #11cdef;
+}
+
+.after\:to-yellow-500::after {
+  content: var(--tw-content);
+  --tw-gradient-to: #fbb140;
+}
+
+.after\:to-lime-400::after {
+  content: var(--tw-content);
+  --tw-gradient-to: #98ec2d;
+}
+
+.after\:to-orange-600::after {
+  content: var(--tw-content);
+  --tw-gradient-to: #f56036;
+}
+
+.after\:to-slate-300::after {
+  content: var(--tw-content);
+  --tw-gradient-to: #a8b8d8;
+}
+
+.after\:to-violet-500::after {
+  content: var(--tw-content);
+  --tw-gradient-to: #825ee4;
 }
 
 .after\:font-awesome::after {
@@ -3276,8 +3411,18 @@ h6 {
   background-image: none;
 }
 
-.checked\:bg-gradient-blue:checked {
-  background-image: linear-gradient(310deg,#5e72e4,#825ee4);
+.checked\:bg-gradient-to-tl:checked {
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.checked\:from-blue-500:checked {
+  --tw-gradient-from: #5e72e4;
+  --tw-gradient-to: rgb(94 114 228 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.checked\:to-violet-500:checked {
+  --tw-gradient-to: #825ee4;
 }
 
 .checked\:bg-right:checked {
@@ -3624,16 +3769,47 @@ h6 {
   background-color: rgb(108 117 125 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:bg-gradient-horizontal-light {
-  background-image: linear-gradient(90deg,hsla(0,0%,100%,0),#fff,hsla(0,0%,100%,0));
+.dark .dark\:bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.dark .dark\:bg-gradient-neutral {
-  background-image: linear-gradient(195deg,#323a54,#1a2035);
+.dark .dark\:bg-gradient-to-tl {
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
-.dark .dark\:bg-gradient-blue {
-  background-image: linear-gradient(310deg,#5e72e4,#825ee4);
+.dark .dark\:from-transparent {
+  --tw-gradient-from: transparent;
+  --tw-gradient-to: rgb(0 0 0 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.dark .dark\:from-slate-750 {
+  --tw-gradient-from: #323a54;
+  --tw-gradient-to: rgb(50 58 84 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.dark .dark\:from-blue-500 {
+  --tw-gradient-from: #5e72e4;
+  --tw-gradient-to: rgb(94 114 228 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.dark .dark\:via-white {
+  --tw-gradient-to: rgb(255 255 255 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #fff, var(--tw-gradient-to);
+}
+
+.dark .dark\:to-transparent {
+  --tw-gradient-to: transparent;
+}
+
+.dark .dark\:to-gray-850 {
+  --tw-gradient-to: #1a2035;
+}
+
+.dark .dark\:to-violet-500 {
+  --tw-gradient-to: #825ee4;
 }
 
 .dark .dark\:text-white {
@@ -4225,8 +4401,18 @@ h6 {
     border-width: 0px;
   }
 
-  .xl-max\:bg-gradient-blue {
-    background-image: linear-gradient(310deg,#5e72e4,#825ee4);
+  .xl-max\:bg-gradient-to-tl {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .xl-max\:from-blue-500 {
+    --tw-gradient-from: #5e72e4;
+    --tw-gradient-to: rgb(94 114 228 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+
+  .xl-max\:to-violet-500 {
+    --tw-gradient-to: #825ee4;
   }
 
   .xl-max\:text-white {
