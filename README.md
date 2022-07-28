@@ -1,7 +1,7 @@
 # argon-dashboard-tailwind
 
 
-# [Argon Dashboard Tailwind](http://demos.creative-tim.com/argon-dashboard-tailwind/pages/dashboard.html?ref=readme-sudt) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/argon-dashboard-tailwind&text=Check%20Soft%20UI%20Dashboard%20Tailwind%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#softdesign%20#html%20https://www.creative-tim.com/product/argon-dashboard-tailwind) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/FhCJCaHdQa)
+# [Argon Dashboard 2 Tailwind](http://demos.creative-tim.com/argon-dashboard-tailwind/pages/dashboard.html?ref=readme-sudt) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/argon-dashboard-tailwind&text=Check%20Soft%20UI%20Dashboard%20Tailwind%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#softdesign%20#html%20https://www.creative-tim.com/product/argon-dashboard-tailwind) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/FhCJCaHdQa)
 
 ![version](https://img.shields.io/badge/version-1.0.4-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/argon-dashboard-tailwind.svg)](https://github.com/creativetimofficial/argon-dashboard-tailwind/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/argon-dashboard-tailwind.svg)](https://github.com/creativetimofficial/argon-dashboard-tailwind/issues?q=is%3Aissue+is%3Aclosed)
 
@@ -9,13 +9,13 @@
 
 Most complex and innovative Dashboard Made by [Creative Tim](https://creative-tim.com/). Check our latest Free TailwindCSS Dashboard.
 
-Designed for those who like bold elements and beautiful websites. Made of hundred of elements, designed blocks and fully coded pages, Argon Dashboard Tailwind is ready to help you create stunning websites and webapps.
+Designed for those who like bold elements and beautiful websites. Made of hundred of elements, designed blocks and fully coded pages, Argon Dashboard 2 Tailwind is ready to help you create stunning websites and webapps.
 
 We created many examples for pages like Sign In, Profile and so on. Just choose between a Basic Design, an illustration or a cover and you are good to go!
 
 **Fully Coded Elements**
 
-Argon Dashboard Tailwind is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or alerts, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files and classes.
+Argon Dashboard 2 Tailwind is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or alerts, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files and classes.
 
 You will save a lot of time going from prototyping to full-functional code, because all elements are implemented.
 This Free TailwindCSS Dashboard is coming with prebuilt design blocks, so the development process is seamless,
@@ -68,7 +68,7 @@ Let us know your thoughts below. And good luck with development!
 
 | HTML |
 | --- |
-| [![Argon Dashboard Tailwind HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard/argon-dashboard-tailwind.jpg)](http://demos.creative-tim.com/argon-dashboard-tailwind/pages/dashboard.html?ref=readme-sudt)
+| [![Argon Dashboard 2 Tailwind HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard/argon-dashboard-tailwind.jpg)](http://demos.creative-tim.com/argon-dashboard-tailwind/pages/dashboard.html?ref=readme-sudt)
 
 ## Demo
 
@@ -90,7 +90,7 @@ Quick start options:
 2. Navigate to the root / directory and run npm install to install our local dependencies.
 
 ## Documentation
-The documentation for the Argon Dashboard is hosted at our [website](https://www.creative-tim.com/learning-lab/tailwind/html/quick-start/argon-dashboard/?ref=readme-sudt).
+The documentation for the Argon Dashboard 2 is hosted at our [website](https://www.creative-tim.com/learning-lab/tailwind/html/quick-start/argon-dashboard/?ref=readme-sudt).
 
 ### What's included
 
@@ -135,9 +135,9 @@ At present, we officially aim to support the last two versions of the following 
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/argon-dashboard-tailwind/issues)
 
 ## Reporting Issues
-We use GitHub Issues as the official bug tracker for the Argon Dashboard Tailwind. Here are some advices for our users that want to report an issue:
+We use GitHub Issues as the official bug tracker for the Argon Dashboard 2 Tailwind. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of the Argon Dashboard. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/argon-dashboard-tailwind?ref=readme-sudt).
+1. Make sure that you are using the latest version of the Argon Dashboard 2. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/argon-dashboard-tailwind?ref=readme-sudt).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
