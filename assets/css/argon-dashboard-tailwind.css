@@ -2011,14 +2011,6 @@ h6 {
   background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/signup-cover.jpg');
 }
 
-.bg-gradient-slate {
-  background-image: linear-gradient(310deg,#627594,#a8b8d8);
-}
-
-.bg-gradient-blue {
-  background-image: linear-gradient(310deg,#5e72e4,#825ee4);
-}
-
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-to: rgb(0 0 0 / 0);
