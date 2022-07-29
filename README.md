@@ -1,4 +1,4 @@
-# [Argon Dashboard 2 Tailwind](http://demos.creative-tim.com/argon-dashboard-tailwind/pages/dashboard.html?ref=readme-sudt) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/argon-dashboard-tailwind&text=Check%20Soft%20UI%20Dashboard%20Tailwind%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#softdesign%20#html%20https://www.creative-tim.com/product/argon-dashboard-tailwind) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/FhCJCaHdQa)
+# [Argon Dashboard 2 Tailwind](http://demos.creative-tim.com/argon-dashboard-tailwind/pages/dashboard.html?ref=readme-ad2t) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/argon-dashboard-tailwind&text=Check%20Argon%20Dashboard%202%20Tailwind%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#softdesign%20#html%20https://www.creative-tim.com/product/argon-dashboard-tailwind) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/FhCJCaHdQa)
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/argon-dashboard-tailwind.svg)](https://github.com/creativetimofficial/argon-dashboard-tailwind/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/argon-dashboard-tailwind.svg)](https://github.com/creativetimofficial/argon-dashboard-tailwind/issues?q=is%3Aissue+is%3Aclosed)
 
@@ -18,12 +18,12 @@ You will save a lot of time going from prototyping to full-functional code, beca
 This Free TailwindCSS Dashboard is coming with prebuilt design blocks, so the development process is seamless,
 switching from our pages to the real website is very easy to be done.
 
-View [all components here](https://www.creative-tim.com/learning-lab/tailwind/html/alert/argon-dashboard/?ref=readme-sudt).
+View [all components here](https://www.creative-tim.com/learning-lab/tailwind/html/alert/argon-dashboard/?ref=readme-ad2t).
 
 **Documentation built by Developers**
 
 Each element is well presented in a very complex documentation.
-You can read more about the <a href="https://www.creative-tim.com/learning-lab/tailwind/html/quick-start/argon-dashboard/?ref=readme-sudt" target="_blank">documentation here</a>.
+You can read more about the <a href="https://www.creative-tim.com/learning-lab/tailwind/html/quick-start/argon-dashboard/?ref=readme-ad2t" target="_blank">documentation here</a>.
 
 **Example Pages**
 
@@ -61,25 +61,25 @@ Let us know your thoughts below. And good luck with development!
 
 ## Versions
 
-[<img src="https://s3.amazonaws.com/creativetim_bucket/github/html.png" width="60" height="60" />](https://www.creative-tim.com/product/argon-dashboard-tailwind?ref=readme-sudt)
+[<img src="https://s3.amazonaws.com/creativetim_bucket/github/html.png" width="60" height="60" />](https://www.creative-tim.com/product/argon-dashboard-tailwind?ref=readme-ad2t)
 
 | HTML |
 | --- |
-| [![Argon Dashboard 2 Tailwind HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard/argon-dashboard-tailwind.jpg)](http://demos.creative-tim.com/argon-dashboard-tailwind/pages/dashboard.html?ref=readme-sudt)
+| [![Argon Dashboard 2 Tailwind HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard/argon-dashboard-tailwind.jpg)](http://demos.creative-tim.com/argon-dashboard-tailwind/pages/dashboard.html?ref=readme-ad2t)
 
 ## Demo
 
-- [Profile page](http://demos.creative-tim.com/argon-dashboard-tailwind/pages/profile.html?ref=readme-sudt)
-- [Sign in page](http://demos.creative-tim.com/argon-dashboard-tailwind/pages/sign-in.html?ref=readme-sudt)
-- [Sign up page](https://demos.creative-tim.com/argon-dashboard-tailwind/pages/sign-up.html?ref=readme-sudt)
+- [Profile page](http://demos.creative-tim.com/argon-dashboard-tailwind/pages/profile.html?ref=readme-ad2t)
+- [Sign in page](http://demos.creative-tim.com/argon-dashboard-tailwind/pages/sign-in.html?ref=readme-ad2t)
+- [Sign up page](https://demos.creative-tim.com/argon-dashboard-tailwind/pages/sign-up.html?ref=readme-ad2t)
 
-[View More](https://demos.creative-tim.com/argon-dashboard-tailwind/pages/dashboard.html?ref=readme-sudt).
+[View More](https://demos.creative-tim.com/argon-dashboard-tailwind/pages/dashboard.html?ref=readme-ad2t).
 
 ## Quick start
 
 Quick start options:
 
-- Download from [Creative Tim](https://www.creative-tim.com/product/argon-dashboard-tailwind?ref=readme-sudt).
+- Download from [Creative Tim](https://www.creative-tim.com/product/argon-dashboard-tailwind?ref=readme-ad2t).
 
 ## Terminal Commands
 
@@ -87,7 +87,7 @@ Quick start options:
 2. Navigate to the root / directory and run npm install to install our local dependencies.
 
 ## Documentation
-The documentation for the Argon Dashboard 2 is hosted at our [website](https://www.creative-tim.com/learning-lab/tailwind/html/quick-start/argon-dashboard/?ref=readme-sudt).
+The documentation for the Argon Dashboard 2 is hosted at our [website](https://www.creative-tim.com/learning-lab/tailwind/html/quick-start/argon-dashboard/?ref=readme-ad2t).
 
 ### What's included
 
@@ -124,38 +124,38 @@ At present, we officially aim to support the last two versions of the following 
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
 ## Resources
-- [Live Preview](https://demos.creative-tim.com/argon-dashboard-tailwind/pages/dashboard.html?ref=readme-sudt)
-- [Download Page](https://www.creative-tim.com/product/argon-dashboard-tailwind?ref=readme-sudt)
-- Documentation is [here](https://www.creative-tim.com/learning-lab/tailwind/html/quick-start/argon-dashboard/?ref=readme-sudt)
-- [License Agreement](https://www.creative-tim.com/license?ref=readme-sudt)
-- [Support](https://www.creative-tim.com/contact-us?ref=readme-sudt)
+- [Live Preview](https://demos.creative-tim.com/argon-dashboard-tailwind/pages/dashboard.html?ref=readme-ad2t)
+- [Download Page](https://www.creative-tim.com/product/argon-dashboard-tailwind?ref=readme-ad2t)
+- Documentation is [here](https://www.creative-tim.com/learning-lab/tailwind/html/quick-start/argon-dashboard/?ref=readme-ad2t)
+- [License Agreement](https://www.creative-tim.com/license?ref=readme-ad2t)
+- [Support](https://www.creative-tim.com/contact-us?ref=readme-ad2t)
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/argon-dashboard-tailwind/issues)
 
 ## Reporting Issues
 We use GitHub Issues as the official bug tracker for the Argon Dashboard 2 Tailwind. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of the Argon Dashboard 2. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/argon-dashboard-tailwind?ref=readme-sudt).
+1. Make sure that you are using the latest version of the Argon Dashboard 2. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/argon-dashboard-tailwind?ref=readme-ad2t).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
 ## Technical Support or Questions
 
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us?ref=readme-sudt) instead of opening an issue.
+If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us?ref=readme-ad2t) instead of opening an issue.
 
 ## Licensing
 
-- Copyright 2022 [Creative Tim](https://www.creative-tim.com?ref=readme-sudt)
-- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-sudt)
+- Copyright 2022 [Creative Tim](https://www.creative-tim.com?ref=readme-ad2t)
+- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-ad2t)
 
 ## Useful Links
 
-- [More products](https://www.creative-tim.com/templates?ref=readme-sudt) from Creative Tim
+- [More products](https://www.creative-tim.com/templates?ref=readme-ad2t) from Creative Tim
 
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
 
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-sudt) from Creative Tim
+- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-ad2t) from Creative Tim
 
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-sudt) (earn money)
+- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-ad2t) (earn money)
 
 ##### Social Media
 
