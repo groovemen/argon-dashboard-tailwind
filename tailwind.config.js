@@ -566,23 +566,6 @@ module.exports = {
       "gradient-to-bl": "linear-gradient(to bottom left, var(--tw-gradient-stops))",
       "gradient-to-l": "linear-gradient(to left, var(--tw-gradient-stops))",
       "gradient-to-tl": "linear-gradient(to top left, var(--tw-gradient-stops))",
-
-      "gradient-blue": "linear-gradient(310deg," + theme("colors.blue.500") + "," + theme("colors.violet.500") + ")", //primary
-      "gradient-cyan": "linear-gradient(310deg," + theme("colors.blue.700") + "," + theme("colors.cyan.500") + ")", //info
-      "gradient-orange": "linear-gradient(310deg," + theme("colors.orange.500") + "," + theme("colors.yellow.500") + ")",
-      "gradient-red": "linear-gradient(310deg," + theme("colors.red.600") + "," + theme("colors.orange.600") + ")",
-      "gradient-lime": "linear-gradient(310deg," + theme("colors.green.600") + "," + theme("colors.lime.400") + ")", //
-      "gradient-emerald": "linear-gradient(310deg," + theme("colors.emerald.500") + "," + theme("colors.teal.400") + ")", //success
-      "gradient-slate": "linear-gradient(310deg," + theme("colors.slate.600") + "," + theme("colors.slate.300") + ")",
-      "gradient-dark-gray": "linear-gradient(310deg," + theme("colors.zinc.800") + "," + theme("colors.zinc.700") + ")",
-      "gradient-gray": "linear-gradient(310deg," + theme("colors.gray.400") + "," + theme("colors.gray.100") + ")",
-
-      "gradient-neutral": "linear-gradient(195deg,#323a54,#1a2035)",//
-
-      "gradient-horizontal-dark": "linear-gradient(90deg,transparent,rgba(0,0,0,.4),transparent)",
-      "gradient-horizontal-gray-light": "linear-gradient(90deg,transparent,rgba(0,0,0,.1),transparent)",
-      "gradient-horizontal-light": "linear-gradient(90deg,hsla(0,0%,100%,0),#fff,hsla(0,0%,100%,0))",
-
     }),
     backgroundOpacity: ({ theme }) => theme("opacity"),
     backgroundPosition: {
