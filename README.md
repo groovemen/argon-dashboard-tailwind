@@ -2,7 +2,7 @@
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/argon-dashboard-tailwind.svg)](https://github.com/creativetimofficial/argon-dashboard-tailwind/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/argon-dashboard-tailwind.svg)](https://github.com/creativetimofficial/argon-dashboard-tailwind/issues?q=is%3Aissue+is%3Aclosed)
 
-![Image](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard/argon-dashboard-tailwind.jpg)
+![Image](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-tailwind/argon-dashboard-2-tailwind.jpg)
 
 Most complex and innovative Dashboard Made by [Creative Tim](https://creative-tim.com/). Check our latest Free TailwindCSS Dashboard.
 
@@ -65,7 +65,7 @@ Let us know your thoughts below. And good luck with development!
 
 | HTML |
 | --- |
-| [![Argon Dashboard 2 Tailwind HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard/argon-dashboard-tailwind.jpg)](http://demos.creative-tim.com/argon-dashboard-tailwind/pages/dashboard.html?ref=readme-ad2t)
+| [![Argon Dashboard 2 Tailwind HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-tailwind/argon-dashboard-2-tailwind.jpg)](http://demos.creative-tim.com/argon-dashboard-tailwind/pages/dashboard.html?ref=readme-ad2t)
 
 ## Demo
 
