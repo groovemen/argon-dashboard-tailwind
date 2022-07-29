@@ -196,10 +196,10 @@ if (navbar) {
   if (navbar.getAttribute("navbar-scroll") == "true") {
     buttonNavbarFixed.setAttribute("checked", "true");
   }
+  const white_elements = navbar.querySelectorAll(".text-white");
+  const white_bg_elements = navbar.querySelectorAll("[sidenav-trigger] i.bg-white");
+  const white_before_elements = navbar.querySelectorAll(".before\\:text-white");
   buttonNavbarFixed.addEventListener("change", function () {
-    const white_elements = navbar.querySelectorAll(".text-white");
-    const white_bg_elements = navbar.querySelectorAll("[sidenav-trigger] i.bg-white");
-    const white_before_elements = navbar.querySelectorAll(".before\\:text-white");
 
     if (this.checked) {
       white_elements.forEach(element => {
